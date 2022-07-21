@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Poppins:ital,wght@0,500;1,300&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+
+}
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.container{
+    background-color: rgb(141, 22, 22);
+    width: 870px;
+    height: 400px;
+    padding: 30px;
+    margin-top: 21px;
+    border-radius: 8px;
+    padding-bottom: 0px;
+    margin-bottom: 50px;
+   
+}
+/* small device */
+@media screen and (max-width:576px) {
+    .groups{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+       
+    }
+   
+    
+}
+@media screen and (min-width:577px) and(max-width: 922px){
+.groups{
+    grid-template-columns: repeat(2, 1fr);
+}
+}
+
+.button{
+    text-decoration: none;
+    padding:12px 34px;
+    margin-top: 3px;
+    position: relative;
+    font-weight: 700;
+    background-image: linear-gradient(rgb(13, 14, 12), rgb(16, 20, 2));
+    border-radius: 5px;
+    color: yellow;
+    
+}
+.fa-hand-pointer{
+    padding-left: 20px;
+}
+
+
+.section-top{
+    margin-bottom: 0px;
+}
+.banner{
+    display: flex;
+    align-items: center;
+}
+.img img{
+    width: 323px;
+    height: 400px;
+}
+.title-name{
+    margin:0px;
+    font-size: 30px;
+    padding-right: 100px;
+    color: rgb(243, 252, 116);
+}
+.text{
+    color: white;
+    font-size: 14px;
+}
+/* blogs */
+
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap:26px;
+    padding-top: 30px;
+}
+
+.blog .thumbnail img{
+    width: 177px;
+    height: 117px;
+
+}
+.blog-info{
+    margin-left: 16px;
+}
+.blog-title{
+    font-size: 20px;
+}
+.blog-author{
+    color: #9f9f9f;
+    font-size: 16px;
+}
+.blog-author a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #562eff;
+}
+button{
+    font-size: 18px;
+        background-color: white;
+        border: 2px solid black;
+        color: black;
+        width: 100%;
+        display: block;
+        margin-top: 20px;
+        padding: 20px;
+        text-align: center;
+        border-radius: 10px;
+        
+} 
+
+.box{
+    height: 300px;
+    width: 200px;
+    background-color:black ;
+   margin-right: 20px;
+   margin-left: 20px;
+    padding:10px;
+    border-radius: 10px;
+   
+    
+}
+ .color{
+    background-color: rgb(41, 95, 9);
+    color: white;
+    
+}
+.group{
+    border: 2px solid rgb(255, 254, 253);
+    border-radius: 5px;
+    padding: 0px;
+}
+.group img{
+    width: 95%;
+    align-items: center;
+    padding-bottom: 10px;
+}
+.groups{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    
+}
+.content{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.group a{
+    text-decoration: none;
+    border: 1px solid black;
+    padding-top:5px ;
+    padding-bottom: 5px;
+    padding-left:10px ;
+    padding-right: 10px;
+    border-radius: 3px;
+}
+.fa-rocketchat{
+    padding-left: 30px;
+}
+/* footer style */
+
+
+.footer{
+    padding: 40px;
+    background-color: black;
+
+}
+.footer h1{
+    color: rgb(253, 241, 243);
+    text-align: center;
+}
+hr{
+    margin-bottom: 20px;
+}
+.footer .social{
+    text-align: center;
+    padding-bottom: 25px;
+    padding-top: 30px;
+    color: white;
+    
+}
+.footer .social a{
+    font-size: 24px;
+    color: rgb(223, 160, 83);
+    border: 1px solid rgb(95, 104, 95);
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 8px;
+    opacity: 0.75;
+}
+.footer .social a:hover{
+    opacity: 0.9;
+
+}
+.list{
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 18px;
+    line-height: 18px;
+    margin-bottom: 0;
+    text-align: center;
+}
+.list a{
+    color:rgb(223, 160, 83);
+    text-decoration: none;
+    opacity: 0.8;
+}
+.list li{
+    display: inline-block;
+    padding: 0 40px;
+    text-align: center;
+
+}
+.list a:hover{
+    opacity: 1;
+}
